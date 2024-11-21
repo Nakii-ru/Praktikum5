@@ -35,7 +35,7 @@ Program diawali deangan inisialisasi dictionary `nilai_data` untuk menyimpan dat
 
 ## Fungsi `lihat_data`
 
-Fungsi ini menampilkan semua data mahasiswa yang telah dimasukkan. Jika tidak ada data, maka program akan menampilkan pesan "Belum ada data.
+Fungsi ini menampilkan semua data mahasiswa yang telah dimasukkan. Jika tidak ada data, maka program akan menampilkan pesan `"Belum ada data`.
 ```python
 def tambah_data():
     print("\nMasukkan Data Mahasiswa")
@@ -56,7 +56,7 @@ def tambah_data():
 ```
 ##  Fungsi `tambah_data()`
 
-Baris ini menyimpan data mahasiswa baru yang dimasukkan oleh pengguna ketika memasukkan pilihan "T" , termasuk NIM, nama, nilai tugas, UTS, dan UAS. Program kemudian menghitung nilai akhir(Nilai Tugas*0.3 + UAS*0.35 + UAS*0.35) dan menyimpan data mahasiswa ke dalam dictionary `nilai_data.`
+Baris ini menyimpan data mahasiswa baru yang dimasukkan oleh pengguna ketika memasukkan pilihan `"T"` , termasuk `NIM`, `Nama`, N`ilai Tugas`, `UTS`, dan `UAS`. Program kemudian menghitung `nilai akhir`(`Nilai Tugas*0.3` + `UAS*0.35` + `UAS*0.35`) dan menyimpan data mahasiswa ke dalam dictionary `nilai_data.`
 ```python
 def ubah_data():
     lihat_data()
@@ -84,7 +84,7 @@ def ubah_data():
 ```
 ## Fungsi `ubah_data()`
 
-Baris ini Menampilkan semua data mahasiswa ketika pengguna memilih input "U", lalu Pengguna akan memilih mana NIM yang ingin diubah. Jika NIM ditemukan, data mahasiswa diperbarui dengan data baru yang dimasukkan oleh pengguna.
+Baris ini Menampilkan semua data mahasiswa ketika pengguna memilih input `"U"`, lalu Pengguna akan memilih mana `NIM` yang ingin diubah. Jika `NIM` ditemukan, data mahasiswa diperbarui dengan data baru yang dimasukkan oleh pengguna.
 ```python
 def hapus_data():
     lihat_data()
@@ -98,7 +98,7 @@ def hapus_data():
 ```
 ## Fungsi `hapus_data()`
 
-baris Menampilkan semua data mahasiswa ketika pengguna memasukkan pilihan "H", lalu Pengguna memilih NIM yang ingin dihapus. Data yang sesuai dengan NIM akan dihapus dari nilai_data.
+Baris Menampilkan semua data mahasiswa ketika pengguna memasukkan pilihan `"H"`, lalu Pengguna memilih `NIM` yang ingin dihapus. Data yang sesuai dengan `NIM` akan dihapus dari `nilai_data`.
 ```python
 def cari_data():
     if not nilai_data:
@@ -118,7 +118,7 @@ def cari_data():
 ```
 ## Fungsi `cari_data()`
 
-Baris ini untuk memasukkan keyword pencarian (NIM). Program mencari data yang sesuai dan menampilkan hasil pencarian ketika pengguna memilih pilihan "C". Jika tidak ditemukan, program akan menampilkan pesan bahwa data tidak ditemukan.
+Baris ini untuk memasukkan keyword pencarian (`NIM`). Program mencari data yang sesuai dan menampilkan hasil pencarian ketika pengguna memilih pilihan `"C"`. Jika tidak ditemukan, program akan menampilkan pesan bahwa data tidak ditemukan.
 
 ```python
 while True:
