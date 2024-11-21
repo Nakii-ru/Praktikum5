@@ -56,7 +56,7 @@ def tambah_data():
 ```
 ##  Fungsi `tambah_data()`
 
-Baris ini menyimpan data mahasiswa baru yang dimasukkan oleh pengguna ketika memasukkan pilihan `"T"` , termasuk `NIM`, `Nama`, N`ilai Tugas`, `UTS`, dan `UAS`. Program kemudian menghitung `nilai akhir`(`Nilai Tugas*0.3` + `UAS*0.35` + `UAS*0.35`) dan menyimpan data mahasiswa ke dalam dictionary `nilai_data.`
+Baris ini menyimpan data mahasiswa baru yang dimasukkan oleh pengguna ketika memasukkan pilihan `"T"` , termasuk `NIM`, `Nama`, `Nilai Tugas`, `UTS`, dan `UAS`. Program kemudian menghitung `nilai akhir`(`Nilai Tugas*0.3` + `UAS*0.35` + `UAS*0.35`) dan menyimpan data mahasiswa ke dalam dictionary `nilai_data.`
 ```python
 def ubah_data():
     lihat_data()
